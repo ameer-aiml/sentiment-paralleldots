@@ -16,3 +16,4 @@ if st.button("Analyse"):
     st.write(f"Neutral :{response['sentiment']['neutral']*100 :.2f} %")
     st.write(F"Positive :{response['sentiment']['positive']*100 :.2f} %")
     
+ 
